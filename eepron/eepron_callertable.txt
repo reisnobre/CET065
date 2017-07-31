@@ -1,0 +1,20 @@
+main
+	Lcd8_Init
+		Lcd8_Cmd
+			Delay_50us
+			Delay_5500us
+			Delay_1us
+		Delay_5500us
+	Eeprom_Read
+	Eeprom_Write
+	WordToStr
+		Div_16x16_U
+	LCD8_Out
+		Lcd8_Cmd
+			Delay_50us
+			Delay_5500us
+			Delay_1us
+	Lcd8_Cmd
+		Delay_50us
+		Delay_5500us
+		Delay_1us

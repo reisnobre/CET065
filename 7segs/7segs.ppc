@@ -1,0 +1,38 @@
+[DeviceName]
+Value=P18F452
+[DeviceClock]
+Value=8
+[MainUnit]
+Value=
+[DeviceFlags]
+Count=10
+Value0=_OSCS_OFF_1H = $00FF
+Value1=_HS_OSC_1H = $00FA
+Value2=_BOR_ON_2L = $00FF
+Value3=_PWRT_ON_2L = $00FE
+Value4=_BORV_42_2L = $00F7
+Value5=_WDT_OFF_2H = $00FE
+Value6=_CCP2MX_OFF_3H = $00FE
+Value7=_STVR_ON_4L = $00FF
+Value8=_LVP_OFF_4L = $00FB
+Value9=_DEBUG_OFF_4L = $00FF
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=7segs.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=3
+Value0=C:\Program Files (x86)\Mikroelektronika\mikroC\Defs\
+Value1=C:\Program Files (x86)\Mikroelektronika\mikroC\Uses\p18\
+Value2=C:\Users\COLCIC.COLCIC-037210\Documents\Rn\7segs\
+[IncludePath]
+Count=0
